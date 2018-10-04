@@ -1,0 +1,9 @@
+#VFIO PCI passthrough devices
+
+#Video device
+DEV=0000:05:00.0
+
+#Associated HDMI Audio 
+ADEV=0000:05:00.1
+
+
