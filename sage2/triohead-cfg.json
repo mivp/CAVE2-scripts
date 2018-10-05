@@ -1,0 +1,65 @@
+/*
+	Configuration for CAVE2
+*/
+{
+	"host": "triohead.cave.monash.edu",
+	"port": 9292,
+	"index_port": 9090,
+	"background": {
+		"color": "#333333",
+		"image": {
+			"url": "images/background/TRIO-TwoScreen-DevInstance.png",
+			"style": "stretch"
+		},
+		"clip": true
+	},
+	"ui": {
+		"clock": 12,
+		"show_url": true,
+		"show_version": true,
+	},
+	"resolution": {
+		"width": 3840,
+		"height":  2160
+	},
+	// for experimental features: true/false
+	"experimental": {
+
+		"omicron": // enable omicron input module
+		{
+			// Standard 'SAGE' connection
+			// SAGE listens for a sageinputserver to stream events
+			"enable": true,
+			"dataPort": 20015,
+			
+			// Additional 'CAVE2' type connection
+			// SAGE connects to an oinputserver to get events
+			"useOinputserver": true,
+			"inputServerIP": "triotrack.cave.monash.edu",
+			"msgPort": 28000
+		}
+
+	},
+	"layout": {
+		"rows": 1,
+		"columns": 2
+	},
+	"displays": [
+		{
+			"row": 0,
+			"column": 0
+		},
+		{
+			"row": 0,
+			"column": 1
+		}
+	],
+	"alternate_hosts": [
+		"localhost",
+		"127.0.0.1",
+		"triohead.cave.monash.edu"
+	],
+	"remote_sites": [
+			
+	]
+}

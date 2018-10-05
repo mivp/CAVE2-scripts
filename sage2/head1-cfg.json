@@ -1,0 +1,145 @@
+/*
+	Configuration for CAVE2
+*/
+{
+	"host": "head1.cave.monash.edu",
+	"port": 9090,
+	"index_port": 9191,
+	"background": {
+		"color": "#000000",
+/*
+		"image": {
+			"url": "images/background/sage2backgroundCave2.jpg",
+			"style": "stretch"
+		},
+*/
+		"clip": true
+	},
+	"ui": {
+		"clock": 24,
+		"show_url": true,
+		"show_version": true,
+	},
+	"resolution": {
+		"width": 1366,
+		"height":  3072,
+	},
+	// for experimental features: true/false
+	"experimental": {
+/*
+		"omicron": // enable omicron input module
+		{
+			// Standard 'SAGE' connection
+			// SAGE listens for a sageinputserver to stream events
+			"enable": false,
+			"dataPort": 20015,
+			
+			// Additional 'CAVE2' type connection
+			// SAGE connects to an oinputserver to get events
+			"useOinputserver": true,
+			"inputServerIP": "track1.cave.monash.edu",
+			"msgPort": 28000
+		}
+*/
+	},
+	"layout": {
+		"rows": 1,
+		"columns": 20
+	},
+	"displays": [
+		{
+			"row": 0,
+			"column": 0
+		},
+		{
+			"row": 0,
+			"column": 1
+		},
+		{
+			"row": 0,
+			"column": 2
+		},
+		{
+			"row": 0,
+			"column": 3
+		},
+		{
+			"row": 0,
+			"column": 4
+		},
+		{
+			"row": 0,
+			"column": 5
+		},
+		{
+			"row": 0,
+			"column": 6
+		},
+		{
+			"row": 0,
+			"column": 7
+		},
+		{
+			"row": 0,
+			"column": 8
+		},
+		{
+			"row": 0,
+			"column": 9
+		},
+		{
+			"row": 0,
+			"column": 10
+		},
+		{
+			"row": 0,
+			"column": 11
+		},
+		{
+			"row": 0,
+			"column": 12
+		},
+		{
+			"row": 0,
+			"column": 13
+		},
+		{
+			"row": 0,
+			"column": 14
+		},
+		{
+			"row": 0,
+			"column": 15
+		},
+		{
+			"row": 0,
+			"column": 16
+		},
+		{
+			"row": 0,
+			"column": 17
+		},
+		{
+			"row": 0,
+			"column": 18
+		},
+		{
+			"row": 0,
+			"column": 19
+		},
+	],
+	"alternate_hosts": [
+		"localhost",
+		"127.0.0.1",
+		"head1",
+		"head1.cave.monash.edu"
+	],
+	"remote_sites": [
+		{
+			name: "Trio",
+			host: "triohead.cave.monash.edu",
+			port: 443,
+			secure: true
+		}
+	]
+}
