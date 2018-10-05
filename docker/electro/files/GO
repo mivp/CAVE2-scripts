@@ -1,0 +1,19 @@
+#!/bin/sh
+
+cd cave2twaka
+make clean ; make
+cd -
+
+cd ode-0.12
+./configure --prefix=$HOME/local --with-drawstuff=none
+make -j 12
+make install
+cd -
+
+make distclean
+make clean
+make MPI=1 -j12
+make distclean
+make clean
+make -j12
+
