@@ -1,4 +1,9 @@
 #!/bin/bash
+
+#Installed on head1
+#Installed on nodes with command:
+#tentakel "cd /cave/CAVE2-scripts/setup; ./nvidia-docker-setup.sh"
+
 #-----------------------------------------------
 # 1. Install Docker
 

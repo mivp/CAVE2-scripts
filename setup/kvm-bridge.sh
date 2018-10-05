@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#Not yet run on CAVE2, need to test further
+
 #https://www.cyberciti.biz/faq/how-to-install-kvm-on-centos-7-rhel-7-headless-server/
 #https://www.tuxfixer.com/install-and-configure-kvm-qemu-on-centos-7-rhel-7-bridge-vhost-network-interface/
 
