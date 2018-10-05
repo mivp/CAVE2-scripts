@@ -14,7 +14,8 @@ docker run --rm -it --volumes-from sage2Keys sage2/master /sage2/keys/GO-docker 
 docker run --rm -it --volumes-from sage2Config sage2/master /bin/bash
 
 #copy config file into /sage2/config/docker-cfg.json
-docker cp $1 sage2/master:/sage2/config/docker-cfg.json
+#docker cp ../sage2/head1-cfg.json sage2:/sage2/config/docker-cfg.json
+docker cp $1 sage2:/sage2/config/docker-cfg.json
 
 #yum install ./google-chrome-stable_current_x86_64.rpm
 #wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm

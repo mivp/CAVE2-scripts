@@ -6,13 +6,11 @@
 	"port": 9090,
 	"index_port": 9191,
 	"background": {
-		"color": "#000000",
-/*
+		"color": "#333333",
 		"image": {
-			"url": "images/background/sage2backgroundCave2.jpg",
+			"url": "images/background/evl2.jpg",
 			"style": "stretch"
 		},
-*/
 		"clip": true
 	},
 	"ui": {
@@ -26,12 +24,11 @@
 	},
 	// for experimental features: true/false
 	"experimental": {
-/*
 		"omicron": // enable omicron input module
 		{
 			// Standard 'SAGE' connection
 			// SAGE listens for a sageinputserver to stream events
-			"enable": false,
+			"enable": true,
 			"dataPort": 20015,
 			
 			// Additional 'CAVE2' type connection
@@ -40,7 +37,6 @@
 			"inputServerIP": "track1.cave.monash.edu",
 			"msgPort": 28000
 		}
-*/
 	},
 	"layout": {
 		"rows": 1,
