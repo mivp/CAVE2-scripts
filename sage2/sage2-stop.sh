@@ -9,4 +9,4 @@ docker rm sage2
 
 #Kill clients
 tentakel pkill -HUP chrome
-
+#tentakel pkill -HUP electron

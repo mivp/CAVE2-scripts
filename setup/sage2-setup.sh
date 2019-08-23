@@ -4,6 +4,7 @@
 if [ $# -eq 0 ]
 then
   echo "No arguments supplied, please pass json config file to use"
+  exit 1
 fi
 
 docker pull sage2/master

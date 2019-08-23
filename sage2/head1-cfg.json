@@ -136,6 +136,12 @@
 			host: "triohead.cave.monash.edu",
 			port: 443,
 			secure: true
+		},
+		{
+			name: "FCR",
+			host: "fcr.eng.monash.edu",
+			port: 9090,
+			secure: true
 		}
 	]
 }
