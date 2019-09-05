@@ -33,5 +33,5 @@ sleep 0.2
 nvidia-smi
 
 #Start the windows 10 vm
-virsh start win10
+virsh -c qemu:///system "start win10"
 

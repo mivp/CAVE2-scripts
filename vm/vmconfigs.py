@@ -44,7 +44,6 @@ for line in lines:
     print("GUESTSLOT ", hex(guest), hex((guest+1)))
     hostdevs += entry_template.format(bus=line[0:2], slot=line[3:5], guestslot0=guest, guestslot1=guest+1)
     guest += 2
-    #subprocess.call('virsh nodedev-dumpxml ' + pci + ' > ' + pci + '.xml', shell=True)
 
     #Add to DEVLIST and ADEVLIST strings
     print(line[6])

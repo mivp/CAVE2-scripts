@@ -4,7 +4,8 @@
 #Will take 10-40 minutes approximately to image one disk, possibly more if run in parallel
 
 #Run on all nodes to update image
-IMG="/data/fast/johnp/image/T1 Clone.img"
+#IMG="/data/fast/johnp/image/T1 Clone.img"
+IMG="/data/fast/johnp/image/n01.img"
 echo ${IMG}
 
 #Destination drive, make sure this is correct for all nodes!
