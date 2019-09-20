@@ -1,2 +1,4 @@
 LOG/*
 docker/tests/*
+vm/nodeconfigs/template.backup.*
+sage2/sage2-electron-client/*
