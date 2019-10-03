@@ -41,7 +41,7 @@ do
 	param="$global_param --user-data-dir=$UDD"
 
 	# Run with Google Chrome
-	ssh -fx $node "sleep 1; env DISPLAY=:0.0 google-chrome $param 'https://$server/display.html?clientID=$idx'" &
+	ssh -fx $node "sleep 3; env DISPLAY=:0.0 google-chrome $param 'https://$server/display.html?clientID=$idx'" &
 
 	# Run with Electron (website not synced)
 	#ssh -fx $node "sleep 1; env DISPLAY=:0.0 /cave/CAVE2-scripts/sage2/sage2-electron-client/node_modules/.bin/electron /cave/CAVE2-scripts/sage2/sage2-electron-client/electron.js -s https://$server -d $idx --width 1366 --height 3072 -x 0 -y 0 -n" &	

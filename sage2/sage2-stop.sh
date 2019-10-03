@@ -8,5 +8,5 @@ docker stop sage2
 docker rm sage2
 
 #Kill clients
-tentakel pkill -HUP chrome
+tentakel -g cave2 pkill -HUP chrome
 #tentakel pkill -HUP electron
